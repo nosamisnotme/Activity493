@@ -16,6 +16,6 @@ public class Hook extends LakeObject
   }
   @Override
   public String say(){
-    return "You now have a hook!";
+    return "You now have a Hook!";
   }
 }

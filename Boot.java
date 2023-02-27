@@ -5,7 +5,7 @@ public class Boot extends LakeObject
 {
     @Override
     public String say(){
-        return "You now have a boot!";
+        return "You now have a Boot!";
     }
     @Override
     public boolean wasCaught(Hook h){

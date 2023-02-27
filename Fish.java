@@ -8,7 +8,7 @@ public class Fish extends LakeObject
     }
     @Override
     public String say(){
-        return "You now have a fish!";
+        return "You now have a Fish!";
     }
     
 }
