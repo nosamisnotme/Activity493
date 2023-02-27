@@ -3,6 +3,10 @@
  */
 public class Boot extends LakeObject
 {
+    public Boot(){
+        super();
+        super.setCost(0);
+    }
     @Override
     public String say(){
         return "You now have a Boot!";

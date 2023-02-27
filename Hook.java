@@ -3,10 +3,12 @@
  */
 public class Hook extends LakeObject
 {
-  private int strength = 45;
+  private int strength;
   
   public Hook(){
-    super.setCost(5);
+    super();
+    super.setCost(15);
+    strength = 55;
   }
   /*---------- accessor ----------*/
   public int getStrength() 
